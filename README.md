@@ -1,4 +1,4 @@
-# Cross-Slice Policy Abuse Detection Framework (Production-Ready Research Version)
+# Cross-Slice Policy Abuse Detection Framework 
 
 This repository implements a real-time detection and mitigation framework for cross-slice policy abuse in 5G networks using Open5GS.
 
