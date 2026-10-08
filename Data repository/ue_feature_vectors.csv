@@ -1,0 +1,4 @@
+supi,window_start,window_s,f_mod,f_pcf,delta_qos,f_slice,i_intent,risk_score,flagged,label
+imsi-001010000000001,2026-01-01T00:00:00Z,10,0.02,0.02,0.00,1.00,0.00,0.8,false,normal
+imsi-001010000000002,2026-01-01T00:00:00Z,10,0.03,0.03,0.00,1.00,0.00,0.9,false,normal
+imsi-001010000000010,2026-01-01T00:00:00Z,10,0.90,0.90,0.35,1.00,0.50,9.4,true,attacker

@@ -1,0 +1,8 @@
+{
+  "note": "Example values only. Replace with the profiles used in your testbed.",
+  "profiles": [
+    { "slice": "eMBB",  "sst": 1, "sd": "000001", "allowed_5qi": [2, 4],   "gfbr_kbps": { "min": 1000, "max": 10000 }, "max_arp_level": 6 },
+    { "slice": "URLLC", "sst": 2, "sd": "000002", "allowed_5qi": [82, 83], "gfbr_kbps": { "min": 500,  "max": 3000 },  "max_arp_level": 2 },
+    { "slice": "mMTC",  "sst": 3, "sd": "000003", "allowed_5qi": [5, 9],   "gfbr_kbps": { "min": 50,   "max": 500 },   "max_arp_level": 10 }
+  ]
+}

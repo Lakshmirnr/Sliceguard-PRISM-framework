@@ -1,0 +1,96 @@
+{
+  "title": "PRISM datasets",
+  "description": "Data from the PRISM framework for detecting and mitigating cross-slice policy abuse in 5G network slicing. Code: github.com/Lakshmirnr/Sliceguard-PRISM-framework",
+  "datasets": [
+    {
+      "name": "Control-plane events",
+      "file": "data/control_plane_events.csv",
+      "description": "PCF and SMF events (PDU session establishment/modification, policy updates) with requested and authorized QoS and a ground-truth label. Sample rows are synthetic.",
+      "format": "csv",
+      "size": "1.2 KB",
+      "updated": "2026-10-08",
+      "license": "CC BY 4.0",
+      "tags": [
+        "input",
+        "events"
+      ]
+    },
+    {
+      "name": "UE feature vectors",
+      "file": "data/ue_feature_vectors.csv",
+      "description": "Per-UE, per-window features (f_mod, f_pcf, ΔQoS, f_slice, I_intent) with Mahalanobis risk score and flag. Sample rows are synthetic.",
+      "format": "csv",
+      "size": "0.3 KB",
+      "updated": "2026-10-08",
+      "license": "CC BY 4.0",
+      "tags": [
+        "features",
+        "risk"
+      ]
+    },
+    {
+      "name": "Slice intent profiles",
+      "file": "data/intent_profiles.json",
+      "description": "Allowed 5QI, GFBR range and maximum ARP level for the eMBB, URLLC and mMTC slices. Example values.",
+      "format": "json",
+      "size": "0.5 KB",
+      "updated": "2026-10-08",
+      "license": "CC BY 4.0",
+      "tags": [
+        "intent",
+        "config"
+      ]
+    },
+    {
+      "name": "Fairness and variance time series",
+      "file": "data/fairness_timeseries.csv",
+      "description": "Jain's fairness index, PCF policy variance and throughput variance over the 600 s run (Fig. 5). Headers only.",
+      "format": "csv",
+      "size": "0.1 KB",
+      "updated": "2026-10-08",
+      "license": "CC BY 4.0",
+      "tags": [
+        "results",
+        "fig5"
+      ]
+    },
+    {
+      "name": "Detection delay vs attack rate",
+      "file": "data/detection_delay.csv",
+      "description": "Detection delay against QoS modification rate (Fig. 6a). Headers only.",
+      "format": "csv",
+      "size": "0.0 KB",
+      "updated": "2026-10-08",
+      "license": "CC BY 4.0",
+      "tags": [
+        "results",
+        "fig6"
+      ]
+    },
+    {
+      "name": "ROC curves",
+      "file": "data/roc_curves.csv",
+      "description": "True/false positive rates for behavioral-only and behavioral + intent detection (Fig. 6b). Headers only.",
+      "format": "csv",
+      "size": "0.1 KB",
+      "updated": "2026-10-08",
+      "license": "CC BY 4.0",
+      "tags": [
+        "results",
+        "fig6"
+      ]
+    },
+    {
+      "name": "Data dictionary",
+      "file": "data/DATA_DICTIONARY.md",
+      "description": "Column definitions and how each file maps to the paper's equations and figures.",
+      "format": "md",
+      "size": "2.0 KB",
+      "updated": "2026-10-08",
+      "license": "CC BY 4.0",
+      "tags": [
+        "docs"
+      ]
+    }
+  ]
+}
